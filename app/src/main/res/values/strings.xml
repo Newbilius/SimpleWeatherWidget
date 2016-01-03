@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Просто погода</string>
+    <string name="widget_name">Просто погода</string>
+    <string name="save_button">Сохранить</string>
+    <string name="cities_list_loading_label">...Загрузка списка городов...</string>
+    <string name="update_count_in_time_label">Обновлять все виджеты раз в:</string>
+    <string name="menu_about_title">О программе</string>
+</resources>

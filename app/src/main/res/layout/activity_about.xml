@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Разработчик"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="2px"
+        android:text="Моисеев Дмитрий aka Newbilius"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:layout_marginTop="5px"
+        android:text="Данные о погоде предоставлены сервисом Яндекс.Погода."
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textSiteYandex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:text="http://pogoda.yandex.ru/"
+        android:textColor="#1523ff"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Связаться с автором"
+        android:paddingBottom="8dp"
+        android:textSize="22dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Написать письмо"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/buttonSite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="1"
+            android:text="Перейти на сайт"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonPrograms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Другие программы"/>
+</LinearLayout>

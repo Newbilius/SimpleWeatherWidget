@@ -1,0 +1,10 @@
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget"
+    android:minWidth="250dp"
+    android:minHeight="40dp"
+    android:previewImage="@drawable/preview_screen"
+    android:widgetCategory="home_screen|keyguard"
+    android:configure="com.newbilius.simpleweatherwidget.Options.OptionsActivity"
+    android:updatePeriodMillis="0">
+</appwidget-provider>
